@@ -3,7 +3,7 @@ import { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { CAMERA_POSITIONS } from "./CameraPosition";
 import { useLoader } from "@react-three/fiber";
-
+import { FBXLoader } from "three/examples/jsm/loaders/FBXLoader";
 function CameraController() {
   const { camera } = useThree();
   const currentPositionIndex = useRef(0);
