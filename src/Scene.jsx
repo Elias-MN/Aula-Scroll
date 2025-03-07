@@ -2,6 +2,7 @@ import { useThree } from "@react-three/fiber";
 import { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { CAMERA_POSITIONS } from "./CameraPosition";
+import { useLoader } from "@react-three/fiber";
 
 function CameraController() {
   const { camera } = useThree();
