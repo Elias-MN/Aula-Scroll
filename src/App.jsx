@@ -1,7 +1,7 @@
 import { Canvas } from "@react-three/fiber";
 import { Scene } from "./Scene";
 import './styles.css'
-import { CAMERA_POSITIONS } from "./cameraPosition";
+import { CAMERA_POSITIONS } from "./CameraPosition";
 
 export default function App() {
   return (
